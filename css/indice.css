@@ -1,0 +1,25 @@
+h1{
+  margin-top: 150px;
+  color: white;
+  text-align: center;
+}
+h6{
+  color: white;
+  text-align: center;
+  margin-bottom: 150px;
+}
+.homepage{
+  background: url("../images/h_img.jpg");
+  background-size: cover;
+  height: 500px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.about{
+  text-align: center;
+  color: black;
+  margin-top: 0px;
+}
+.about h1{
+  color: black;
+}
