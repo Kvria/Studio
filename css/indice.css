@@ -54,17 +54,15 @@ h1 {
   height: 350px;
   color: white;
 }
-.container.hover{
-  position: relative;
-  width: 50%;
+.hover{
+  position: fixed;
+  width: 25%;
 }
-
-.image {
+.images{
   display: block;
   width: 100%;
   height: auto;
 }
-
 .overlay {
   position: absolute;
   top: 0;
@@ -78,7 +76,7 @@ h1 {
   background-color: #008CBA;
 }
 
-.container:hover .overlay {
+.hover .overlay {
   opacity: 1;
 }
 
