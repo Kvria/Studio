@@ -54,40 +54,25 @@ h1 {
   height: 350px;
   color: white;
 }
+.container.hover {
+  position: absolute;
+   width: 50%;
+}
 .hover{
-  position: fixed;
+   position: absolute;
   width: 25%;
 }
-.images{
-  display: block;
-  width: 100%;
-  height: auto;
+.pDesign {
+  display: none;
 }
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
+.dment{
+  display: none;
 }
-
-.hover .overlay {
-  opacity: 1;
+.product{
+  display: none;
 }
-
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
+.text1, .text2{
+  display: none;
+  background-color: white;
+  color: black;
 }

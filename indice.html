@@ -4,8 +4,8 @@
     <title>Delani Studio</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/indice.css" rel="stylesheet" type="text/css">
-    <script src="jquery-3.4.1.js"></script>
-    <script src="indice.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
+    <script src="js/indice.js"></script>
   </head>
   <body>
     <div class="container text-center">
@@ -42,58 +42,61 @@
             <br>
             <h3>WHAT TO DO</h3>
 
-        <div class="row">
-            <br>
-            <br>
-          <div class="column">
-              <img src="images/design_icon.png">
+        <div class="row text-center">
+          <div class="col-md-4" id="design">
+              <img src="images/design_icon.png" class="designIcon">
             <h6><b>DESIGN</b><h6>
-              <p>Our design practice offers a full range of services including brand strategy,interaction and visual design and user experience testing.</p>
-              <p>Throughout your project,our designers create and implement visual design workflows, solicit user, feedback and user feedback and work with you to make sure what gets built is what is needed</p>
-            </div>
-              <br>
-          <div class="column 2">
-              <img src="images/dev_icon.png">
-            <h6><b>DEVELOPMENT</b></h6>
+              <div class="pDesign">
+                <p>Our design practice offers a full range of services including brand strategy,interaction and visual design and user experience testing.</p>
+                <p>Throughout your project,our designers create and implement visual design workflows, solicit user, feedback and user feedback and work with you to make sure what gets built is what is needed</p>
+              </div>
+          </div>
+          <div class="col-md-4" id="devs">
+                <img src="images/dev_icon.png" class="devIcon" >
+              <h6><b>DEVELOPMENT</b></h6>
+            <div class="dment">
               <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
               <p>They collaborate with your team to write and improve code on a daily basis, using proven practices such as test driven development and pair programming.</p>
             </div>
-              <br>
-          <div class="column 3">
-              <img src="images/product_icon.png">
+          </div>
+          <div class="col-md-4" id="management">
+              <img src="images/product_icon.png" class="prodIcon">
             <h6><b>PRODUCT MANAGEMENT</b></h6>
+            <div class="product">
               <p>Planning development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live</p>
-              <p>This iterative processallows for changes as buisness requirements evolve</p>
+              <p>This iterative process allows for changes as buisness requirements evolve</p>
+            </div>
           </div>
         </div>
 
           <h3><b>PORTFOLIO</b></h3>
         <div class="row">
 
-            <div class="column">
-              <img src="images/work4.jpg" class="image" style="width:100%">
-                <div class="overlay">
-                  <div class="text">John Doe</div>
+          <div class="column">
+            <div class="hover" >
+                <div class="carousel-caption text1">John Doe</div>
+                <img src="images/work4.jpg" class="image1" style="width:250px;">
               </div>
           </div>
 
           <div class="column">
-            <img src="images/work3.jpg" class="image" style="width:100%">
+            <div class="hover">
+              <div class="carousel-caption text2">Mighty Ontario</div>
+                <img src="images/work3.jpg" class="image2" style="width:250px;">
+              </div>
+          </div>
+
+
+          <div class="column">
+
+            <img src="images/work2.jpg" class="image" style="width:250px;">
               <div class="overlay">
-                <div class="text">Mighty Ontario</div>
-              </div>
-          </div>
-
-
-          <div class="column">
-            <img src="images/work2.jpg" class="images" style="width:100%">
-              <div class="overlay">
-                <div class="text">Customised wallpapers for electonics</div>
+                <div class="text">Customised wallpapers</div>
               </div>
           </div>
 
           <div class="column">
-            <img src="images/work1.jpg" class="images" style="width:100%">
+            <img src="images/work1.jpg" class="image" style="width:250px;">
               <div class="overlay">
                 <div class="text">Jim Carey</div>
               </div>
@@ -101,34 +104,55 @@
 
             <br>
           <div class="column">
-            <img src="images/work5.jpg" class="images" style="width:100%">
+            <img src="images/work5.jpg" class="image" style="width:250px;">
               <div class="overlay">
                 <div class="text">Website Design</div>
               </div>
           </div>
           <div class="column">
-            <img src="images/work6.jpg" alt="" style="width:100%">
+            <img src="images/work6.jpg" class="image" style="width:250px;">
               <div class="overlay">
                 <div class="text">Customize settings</div>
               </div>
           </div>
           <div class="column">
-            <img src="images/work7.jpg" class="images" style="width:100%">
+            <img src="images/work7.jpg" class="image" style="width:250px;">
               <div class="overlay">
                 <div class="text">Burned company logo</div>
               </div>
           </div>
           <div class="column">
-            <img src="images/work8.jpg" class="images" style="width:100%">
+            <img src="images/work8.jpg" class="image" style="width:250px;">
               <div class="overlay">
                 <div class="text">Giraffe Restaurant logo</div>
               </div>
+            </div>
           </div>
-        </div>
-      
-      <div class="contact">
+
+      <div class=" row contact">
         <h2>CONTACT US</h2>
+
+            <div class="col-md-6">
+              <form id="form">
+              <input class="form control typo" type="text" placeholder="Name"
+        </div>
       </div>
+    </div>
+    <div class="social-icons"
+      <div class="icons">
+        <img src="images/social_icons/behance.png">
+        <img src="images/social_icons/dribble.png">
+        <img src="images/social_icons/facebook.png">
+        <img src="images/social_icons/flickr.png">
+        <img src="images/social_icons/g_plus.png">
+        <img src="images/social_icons/pintrest.png">
+        <img src="images/social_icons/skype.png">
+        <img src="images/social_icons/stumble_upon.png">
+        <img src="images/social_icons/twitter.png">
+        <img src="images/social_icons/you-tube.png">
+    <div class="copyright">
+      <h6>DELANI STUDIO</h6>
+      <h6>2019<h6>
     </div>
   </body>
 
