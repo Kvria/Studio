@@ -54,14 +54,14 @@ h1 {
   height: 350px;
   color: white;
 }
-.container.hover {
-  position: absolute;
-   width: 50%;
-}
-.hover{
-   position: absolute;
-  width: 25%;
-}
+/* .container.hover { */
+  /* position: absolute; */
+   /* width: 50%; */
+/* } */
+/* .hover{ */
+   /* position: absolute; */
+  /* width: 25%; */
+/* } */
 .pDesign {
   display: none;
 }
@@ -71,8 +71,33 @@ h1 {
 .product{
   display: none;
 }
-.text1, .text2{
+.text1, .text2, .text3, .text4, .text5, .text6, .text7, .text8{
   display: none;
+  opacity: 0.5;
+  position: absolute;
+  height: 40%;
+  width: 20%;
+  padding-top: 100px;
+
   background-color: white;
   color: black;
+}
+#mce-EMAIL,#mce-FNAME{
+  width: 90%;
+  margin: auto;
+  background: transparent;
+  border: white solid 1px ;
+}
+#mce-MESSAGE{
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  background: transparent;
+  border: white solid 1px ;
+  margin-top: 20px;
+
+}
+
+::placeholder{
+  color: white;
 }
